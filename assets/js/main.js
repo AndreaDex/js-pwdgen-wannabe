@@ -12,4 +12,4 @@ var favColor = prompt("Qual' è il tuo colore preferito ?").toLowerCase(favColor
 console.log(favColor);
 
 //Generate Password
-document.getElementById(passwordgen).innerHTML = firstName, lastName, favColor, "21";
+document.getElementById("passwordgen").innerHTML = firstName + lastName + favColor + "21";
